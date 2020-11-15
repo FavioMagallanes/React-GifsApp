@@ -1,0 +1,60 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #060930;
+  color: #fff;
+  padding: 60px;
+}
+
+h1 {
+  color: #f4abc4;
+  font-family: "Architects Daughter", cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+.container {
+  margin-left: 41%;
+}
+
+input {
+  border: none;
+  border-radius: 50PX;
+  background-color: #f4abc4;
+  color: #000;
+  font-size: 1.3rem;
+  outline: none;
+  padding: 7px;
+}
+
+::placeholder {
+  color: #060930;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.card-grid {
+  margin: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  align-items: center;
+}
+.card {
+  border: 1px solid #f4abc4;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.card:hover {
+  transition: transform 0.1s ease-out;
+  transform: translateY(5px);
+}
+
+.card img {
+  max-height: 170px;
+  width: auto;
+}
